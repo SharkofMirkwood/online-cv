@@ -7,20 +7,20 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Connor Leigh-Smith
+    tagline: Full-Stack Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: connor@leigh-smith.me
+    # phone: 012 345 6789
+    # website: blog.webjeda.com #do not add http://
+    linkedin: connor-leigh-smith-14273036
+    github: SharkofMirkwood
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # twitter: 
+    stack-overflow: 1068539/sharkofmirkwood
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -28,161 +28,116 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
+        level: Advanced
 
     interests:
-      - item: Climbing
+      - item: Woodwork
         link:
-
-      - item: Snowboarding
+      - item: Bitcoin & decentralised financial systems
         link:
-
-      - item: Cooking
+      - item: Hiking
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Full-stack software engineer/technical lead. Recent experience mostly
+      consists of building microservices with JavaScript, Angular, NodeJS,
+      Docker & Kubernetes.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BSc Computer Science (First Class Honours)
+      university: Royal Holloway, University of London
+      time: 2011 - 2015
+      # details: |
+      #   First Class Honours
+    - degree: A-Levels
+      university: St. Dominic’s Sixth Form College, Harrow-on-the-Hill
+      time: 2009 – 2011
+      # details: |
+      #   Computing (A), Maths (A), Spanish (A*), Psychology (b).
 experiences:
-    - role: Lead Developer
+    - role: Full-Stack Developer; Technical Lead
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: SuperAwesome
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        Work across teams on a variety of kidtech projects, including a kid-safe
+        ad server and Kids Web Services, a cloud platform for kid-safe apps.
+        Held roles as a full-stack developer and technical lead, involving working on
+        many parts of our systems, most of this involving highly scalable APIs and
+        frontend interfaces written in Angular/AngularJS. A lot of work with devops 
+        and our service-oriented architecture, using Docker and Kubernetes for
+        container orchestration; designing and maintaining large PostgreSQL databases;
+        setting up new projects for other teams; creating & maintaining SDKs for
+        clients (JS/Android/iOS/Unity).
+    - role: Software Developer & Sysadmin
       time: 2012 - 2014
-      company: Amazon, London
+      company: Easy Website in a Box
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        This is a website-creation tool for users with no technical knowledge, which eventually
+        went on sale in physical boxes in high street stores across the UK. I was hired as the
+        principal engineer and created the first version of the product, setting up and
+        maintaining the architecture, writing the server-side (PHP) and client-side
+        (HTML5/AngularJS) parts of the system and eventually hiring and leading a small team
+        working on subsequent versions of the product.
+    - role: Web Developer
+      time: May - Aug 2012
+      company: Dhalco Web Solutions
+      details: |
+        Worked as a developer on projects for various clients at a web design agency. Most of my
+        focus was on back-end development for progress trackers, quoting portals, simple billing
+        systems, etc
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Side projects
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Lab checker (2016-2019)
+        tagline: "Part-time project building an automated lab system for university lab sessions, to give out assignments, take submissions and compile & provide automated feedback to students before sending to lab assistants for checking. Currently used by my university in production to make mannaging labs easier."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Progression Monitoring System (2015)
+        tagline: "Final year project at uni. Web-based system for tracking attendance & progression of students. Hooked into uni's LDAP system for authentication & user management"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: MeeTeeVee (2011)
+        tagline: "Personal side project. Catalogue of videos available for streaming, with user-submitted content. Gained a lot of popularity, but shut it down due to many copyright infringement concerns"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: NodeJS
+        level: 80%
+      - name: Angular & AngularJS
+        level: 80%
+      - name: Docker
+        level: 80%
+      - name: Kubernetes
+        level: 70%
+      - name: PostgreSQL
+        level: 70%
+      - name: Amazon Web Services
         level: 60%
 
 footer: >
