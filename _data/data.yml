@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Connor Leigh-Smith
-    tagline: Full-Stack Developer
+    tagline: Full-Stack Software Engineer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: connor@leigh-smith.me
     # phone: 012 345 6789
-    # website: blog.webjeda.com #do not add http://
+    website: connor.leigh-smith.me
     linkedin: connor-leigh-smith-14273036
     github: SharkofMirkwood
     gitlab:
@@ -32,60 +32,66 @@ sidebar:
         level: Advanced
 
     interests:
-      - item: Woodwork
+      - item: Decentralised financial systems
         link:
-      - item: Bitcoin & decentralised financial systems
+      - item: Hiking & nature
         link:
-      - item: Hiking
+      - item: DIY & making things
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Full-stack software engineer/technical lead. Recent experience mostly
-      consists of building microservices with JavaScript, Angular, NodeJS,
-      Docker & Kubernetes.
+      Tech lead with software engineering background and some experience as a platform engineer.
+      Recent experience mostly consists of building microservices and running workloads at scale with JavaScript/NodeJS, Kubernetes, AWS.
 education:
     - degree: BSc Computer Science (First Class Honours)
       university: Royal Holloway, University of London
       time: 2011 - 2015
       # details: |
       #   First Class Honours
-    - degree: A-Levels
-      university: St. Dominic’s Sixth Form College, Harrow-on-the-Hill
-      time: 2009 – 2011
+#     - degree: A-Levels
+#       university: St. Dominic’s Sixth Form College, Harrow-on-the-Hill
+#       time: 2009 – 2011
       # details: |
       #   Computing (A), Maths (A), Spanish (A*), Psychology (b).
 experiences:
-    - role: Full-Stack Developer; Technical Lead
-      time: 2015 - Present
-      company: SuperAwesome
+    - role: Platform Engineer; Technical Lead
+      time: 2020 - Present
+      company: SuperAwesome, an Epic Games company (Cloud Platform)
       details: |
-        Work across teams on a variety of kidtech projects, including a kid-safe
-        ad server and Kids Web Services, a cloud platform for kid-safe apps.
-        Held roles as a full-stack developer and technical lead, involving working on
-        many parts of our systems, most of this involving highly scalable APIs and
-        frontend interfaces written in Angular/AngularJS. A lot of work with devops 
-        and our service-oriented architecture, using Docker and Kubernetes for
-        container orchestration; designing and maintaining large PostgreSQL databases;
-        setting up new projects for other teams; creating & maintaining SDKs for
-        clients (JS/Android/iOS/Unity).
+        After some time working on our various products as a software engineer, I pivoted to platform engineering, helping build the tooling and infrastructure needed by our engineers for running our products, including:
+          - Provisioning/maintaining a large set of production Kubernetes clusters & supporting networking (within AWS)
+          - Providing easy self-serve infrastructure as code (Terraform) tooling for developers to consume
+          - Keeping infrastructure secure by default while enabling it to be built upon
+          - Training and supporting developers in ongoing use of the infrastructure platform
+          - Generally abstracting away complexities to reduce the cognitive load for developers' interactions with infrastructure
+          - As tech lead, planning all the above in coordination with the development teams to ensure a balance between flexibility and consistency in our platform & tooling while reducing disruptions
+    - role: Full-Stack Developer; Technical Lead
+      time: 2015 - 2020
+      company: SuperAwesome (Kids Web Services)
+      details: |
+        Worked on multiple kidtech products, including an ad server for safely engaging with children and a
+        children's gaming and art social platform. Spent most of the time as tech lead for Kids Web Services, a platform of tools and APIs with the purpose of allowing third parties to build applications that are kid-safe by default according to regulations as well as best practices.
+        During this time, worked across the stack as an engineer on highly scalable APIs written primarily in NodeJS and backed by
+        PostgreSQL, running on Kubernetes, as well as Angular/AngularJS frontends and various SDKs.
+        As tech lead, was responsible for designing the architecutre for such systems, planning implementation, coordinating and
+        mentoring other engineers.
     - role: Software Developer & Sysadmin
       time: 2012 - 2014
       company: Easy Website in a Box
       details: |
-        This is a website-creation tool for users with no technical knowledge, which eventually
-        went on sale in physical boxes in high street stores across the UK. I was hired as the
-        principal engineer and created the first version of the product, setting up and
-        maintaining the architecture, writing the server-side (PHP) and client-side
-        (HTML5/AngularJS) parts of the system and eventually hiring and leading a small team
-        working on subsequent versions of the product.
+        Principal engineer building a website-creation tool for users with minimal technical knowledge, which eventually
+        went on sale in physical boxes in high street stores across the UK. Set up and
+        maintained the architecture, wrote the server-side (PHP) and client-side
+        (HTML5/AngularJS) parts of the system and eventually handled hiring and leading of a small team
+        working on later versions of the product.
     - role: Web Developer
       time: May - Aug 2012
       company: Dhalco Web Solutions
       details: |
         Worked as a developer on projects for various clients at a web design agency. Most of my
-        focus was on back-end development for progress trackers, quoting portals, simple billing
+        focus was on back-end development for bespoke solutions like progress trackers, quotation portals, simple billing
         systems, etc
 projects:
     title: Projects
@@ -99,7 +105,7 @@ projects:
         tagline: "Final year project at uni. Web-based system for tracking attendance & progression of students. Hooked into uni's LDAP system for authentication & user management"
 
       - title: MeeTeeVee (2011)
-        tagline: "Personal side project. Catalogue of videos available for streaming, with user-submitted content. Gained a lot of popularity, but shut it down due to many copyright infringement concerns"
+        tagline: "Personal side project. Catalogue of videos available for streaming, with user-submitted content. Gained some popularity, but decided to shut down due to copyright infringement concerns"
 
 # publications:
 #     title: Publications
@@ -127,18 +133,20 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: NodeJS
+      - name: AWS/Cloud
+        level: 75%
+      - name: Terraform
         level: 80%
-      - name: Angular & AngularJS
-        level: 80%
-      - name: Docker
-        level: 80%
+      - name: NodeJS (Javascript/Typescript)
+        level: 90%
       - name: Kubernetes
-        level: 70%
+        level: 85%
       - name: PostgreSQL
-        level: 70%
-      - name: Amazon Web Services
-        level: 60%
+        level: 75%
+      - name: Linux
+        level: 80%
+      - name: Frontend JS / HTML / CSS
+        level: 85%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: ''
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
