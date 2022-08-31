@@ -42,7 +42,7 @@ sidebar:
 career-profile:
     title: About
     summary: |
-      Scotland-based tech lead with a software engineering background, most recently leading a team building an infrastracture platform + tooling for various products to easily run many high-scale workloads.  
+      Scotland-based tech lead with a software engineering background, most recently leading a team building an infrastracture platform + tooling for various products to easily run high-scale workloads.  
       I enjoy adapting to whichever technologies, skills & roles can serve as the right tool for the job in order to provide maximum value.
 education:
     - degree: BSc Computer Science (First Class Honours)
@@ -60,38 +60,33 @@ experiences:
       time: 2020 - Present
       company: SuperAwesome, an Epic Games company (Cloud Platform team)
       details: |
-        After picking up a platform engineering role to fill some gaps in my knowledge, worked on delivering an infrastructure platform and tooling to enable the remaining engineering teams in the company to easily run their workloads at scale without having to think too much about the infrastructure.
-          - Provisioning/maintenance of dozens of production Kubernetes clusters running across as many AWS accounts and multiple regions
-          - Providing easy self-serve Terraform tooling for developers to consume as well as training on its use
-          - Providing support for engineers of all levels on provisioning and managing their infrastructure using our tooling; knowledge sharing where necessary to further this
-          - Designing and planning work across many initiatives, balancing flexibility/autonomy of our engineering teams with consistency & reduction of cognitive load to enable focusing on application development
-          - Communication with leads from many teams to understand requirements and coordinate releases
-          - Carrying out system design interview & onboarding newjoiners; training other engineers to eventually be able to lead projects autonomously
-          - Stack: Kubernetes; AWS; Terraform; Python & bash scripting
+        Currently working on delivering and constantly improving an infrastructure platform + tooling to enable other engineering teams to easily run their workloads at scale and focus on application development
+          - Provisioning & maintenance of dozens of production Kubernetes clusters running across dozens of AWS accounts and multiple regions
+          - Providing easy self-serve Terraform tooling for developers to consume regardless of TF/DevOps experience
+          - Providing support to engineers of all levels with provisioning and managing their infrastructure using our tooling
+          - Designing and planning work across many initiatives to further security, stability & scalability while balancing flexibility/autonomy of our engineering teams with consistency across our infra
+          - Communication with leads from many teams to understand requirements and coordinate releases/improvements
+          - Carrying out system design interview & onboarding newjoiners; training other engineers to lead their own projects autonomously
+        Stack: Kubernetes; AWS; Terraform; Python & bash scripting
     - role: Tech Lead; Full-Stack Developer
       time: 2015 - 2020
       company: SuperAwesome (Kids Web Services)
       details: |
-        Worked as a full-stack engineer then Tech Lead for Kids Web Services, a platform of tools and APIs with the aim of enabling people to create safe digital products & experiences for children.
+        Worked as a full-stack engineer and subsequently Tech Lead for Kids Web Services, a platform of tools and APIs with the aim of enabling engineers globally to create safe digital products & experiences for children.
           - Worked with stakeholders and PMs to define technical direction and carry out product vision
-          - Implemented features and delivered requirements using a microservice architecture starting with a relatively early adoption of Docker
-          - Designed systems with the limitations brought on by often strict guidelines and regulations around children's data privacy
-          - Architected and optimised our systems to work at scale and handle several large launches with customers using our services in the critical path of applications used by millions of children
+          - Implemented features and delivered requirements using a microservice architecture
+          - Designed systems within strict limitations due to guidelines and regulations around children's data privacy
+          - Architected and optimised our systems to work at scale and handle several large involving being in the critical path of applications used by millions of children
           - Interviewed and trained new team members
-          - Stack: JavaScript/TypeScript (NodeJS), AngularJS/Angular, Express/NestJS, Docker, Kubernetes, PostgreSQL, MongoDB, Kafka
+        Stack: JavaScript/TypeScript (NodeJS), AngularJS/Angular, Express/NestJS, Docker, Kubernetes, PostgreSQL, MongoDB, Kafka
     - role: Lead Software Developer & Sysadmin
       time: 2012 - 2014
       company: Easy Website in a Box
       details: |
-        Principal engineer building a website-creation tool for users with minimal technical knowledge, which eventually went on sale in physical boxes in high street stores across the UK.
+        As principal engineer, built a website-creation tool for users with minimal technical knowledge, which eventually went on sale in physical boxes in high street stores across the UK.
           - Set up and maintained the infrastructure
           - Wrote the first version of the entire system; led hiring & oversaw development of further iterations of the system
-          - Stack: PHP, MySQL, AngularJS, Nginx, Linux
-    - role: Web Developer
-      time: May - Aug 2012
-      company: Dhalco Web Solutions
-      details: |
-        Worked as a developer on projects for various clients at a web design agency. Most of my focus was on back-end development for bespoke solutions like progress trackers, quotation portals, simple billing systems, etc
+        Stack: PHP, MySQL, AngularJS, Nginx, Linux
 projects:
     title: Projects
     intro: >
@@ -105,9 +100,6 @@ projects:
 
       - title: Lab checker (2016-2019)
         tagline: "Part-time project building an automated lab system for university lab sessions, to give out assignments, take submissions and compile & provide automated feedback to students before sending to lab assistants for checking. Currently used by my university in production for managing lab sessions."
-
-      - title: Progression Monitoring System (2015)
-        tagline: "Final year project at uni. Web-based system for tracking attendance & progression of students. Hooked into uni's LDAP system for authentication & user management"
 
 # publications:
 #     title: Publications
