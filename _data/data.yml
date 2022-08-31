@@ -27,12 +27,11 @@ sidebar:
     languages:
       - idiom: English
         level: Native
-
       - idiom: Spanish
         level: Advanced
 
     interests:
-      - item: DeFi & monetary freedom
+      - item: DeFi & economic freedom
         link:
       - item: Hiking & outdoor adventures
         link:
@@ -60,14 +59,15 @@ experiences:
       time: 2020 - Present
       company: SuperAwesome, an Epic Games company (Cloud Platform team)
       details: |
-        Currently working on delivering and constantly improving an infrastructure platform + tooling to enable other engineering teams to easily run their workloads at scale and focus on application development
+        Currently working on delivering and constantly improving an infrastructure platform + tooling to enable other engineering teams to easily run their workloads at scale and focus on application development.
           - Provisioning & maintenance of dozens of production Kubernetes clusters running across dozens of AWS accounts and multiple regions
           - Providing easy self-serve Terraform tooling for developers to consume regardless of TF/DevOps experience
           - Providing support to engineers of all levels with provisioning and managing their infrastructure using our tooling
           - Designing and planning work across many initiatives to further security, stability & scalability while balancing flexibility/autonomy of our engineering teams with consistency across our infra
           - Communication with leads from many teams to understand requirements and coordinate releases/improvements
-          - Carrying out system design interview & onboarding newjoiners; training other engineers to lead their own projects autonomously
-        Stack: Kubernetes; AWS; Terraform; Python & bash scripting
+          - Carrying out system design interviews & onboarding newjoiners
+
+        Stack: Kubernetes, AWS, Terraform, Python & bash scripting
     - role: Tech Lead; Full-Stack Developer
       time: 2015 - 2020
       company: SuperAwesome (Kids Web Services)
@@ -78,20 +78,25 @@ experiences:
           - Designed systems within strict limitations due to guidelines and regulations around children's data privacy
           - Architected and optimised our systems to work at scale and handle several large involving being in the critical path of applications used by millions of children
           - Interviewed and trained new team members
+
         Stack: JavaScript/TypeScript (NodeJS), AngularJS/Angular, Express/NestJS, Docker, Kubernetes, PostgreSQL, MongoDB, Kafka
     - role: Lead Software Developer & Sysadmin
       time: 2012 - 2014
       company: Easy Website in a Box
       details: |
-        As principal engineer, built a website-creation tool for users with minimal technical knowledge, which eventually went on sale in physical boxes in high street stores across the UK.
+        As principal engineer, built a website creator for non-technical users, which eventually went on sale in physical boxes in high street stores across the UK.
           - Set up and maintained the infrastructure
           - Wrote the first version of the entire system; led hiring & oversaw development of further iterations of the system
+
         Stack: PHP, MySQL, AngularJS, Nginx, Linux
 projects:
     title: Projects
     intro: >
       Side projects built for fun and/or for educational purposes
     assignments:
+      - title: MyNiftyTown (2021)
+        tagline: "NFT based town-building & resource-collection game; started building to learn Solidity & gain experience deploying smart contracts to the EVM as well as interacting with them using Web3 tooling."
+
       - title: Alexa Bitcoin Wallet (2019)
         tagline: "Fun project for display-enabled Amazon Alexa devices enabling audio-based balance/transaction count checking, QR code display for addresses, etc. for a specified HD wallet. Amazon ultimately didn't allow it to be published on their app store."
 
